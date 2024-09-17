@@ -48,10 +48,10 @@ body {
     gap: 20px;
 }
 
-button {
+.dive-in-button {
     flex-grow: 0;
     flex-shrink: 0;
-    background-color: #F9FaF8e;
+    background-color: #F9FAF8;
     color: darkcyan ;
     border-radius: 10% ;
     padding: 7px 16px;
@@ -63,15 +63,10 @@ button {
     color: #F9FaF8;
 }
 
-.main-pic {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 .hero-images {
     display: flex;
     justify-content: center;
+    gap: 50px;
 }
 
 .main-container {
@@ -103,9 +98,12 @@ button {
 
 }
 
-
 .img {
     border-radius: 25%;
+}
+
+.main-pic, .secondary-pic {
+    border-radius: 10% ;
 }
 
 .Eachtap {
@@ -114,3 +112,52 @@ button {
     font-weight: 900;
     padding: 50px;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    inline-size: 800px;
+    overflow-wrap: normal;
+    font-size: 36px;
+    color: #1f2937;
+
+}
+
+.warning-attribution {
+    text-align: left;
+    font-weight: 900;
+}
+
+.CTA-container {
+    display: flex;
+    background-color: white;
+    padding: 200px;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.CTA-box {
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-around; 
+    gap: 800px;
+}
+
+.CTA-text {
+    margin-right: auto;
+}
+
+.dream-button {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 50px;
+}
+
