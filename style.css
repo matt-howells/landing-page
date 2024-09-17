@@ -161,3 +161,8 @@ body {
     margin: 50px;
 }
 
+.footer-container {
+ display: flex;
+ justify-content: center;
+ color: #E5E7EB;
+}
