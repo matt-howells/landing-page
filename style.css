@@ -55,7 +55,6 @@ button {
     color: darkcyan ;
     border-radius: 10% ;
     padding: 7px 16px;
-
 }
 
 .blurb-heading {
@@ -73,4 +72,45 @@ button {
 .hero-images {
     display: flex;
     justify-content: center;
+}
+
+.main-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.example-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    
+}
+
+.img-text {
+    font-size: 72;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+    padding: 50px;
+    color: magenta;
+
+}
+
+
+.img {
+    border-radius: 25%;
+}
+
+.Eachtap {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 50px;
 }
